@@ -52,7 +52,8 @@ export default function Project() {
       <article className="group" key={project.id}>
         <div className="flex flex-col justify-center relative">
 
-          <div className="flex flex-row peer absolute z-10 left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] duration-150 transition-opacity opacity-0 group-hover:opacity-100">
+          <div className="flex flex-row absolute z-10 left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] 
+  opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-150">
             <Link
               target="_blank"
               to={project.liveLink}
