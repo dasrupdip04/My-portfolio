@@ -36,6 +36,12 @@ export default function Project() {
                   <p className="md:text-lg text-gray-500 text-base mt-2">
                     <span className="text-m font-bold text-gray-800">Tech Stack:</span> {project.techStack}
                   </p>
+                  <a href={project.sourceLink} target="_blank" rel="noopener noreferrer">
+  <button className="px-4 py-2 rounded-lg bg-purple-800 text-white hover:bg-purple-950 transition">
+    Source Code
+  </button>
+</a>
+
                 </div>
               </div>
 
