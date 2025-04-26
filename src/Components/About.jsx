@@ -12,7 +12,7 @@ export default function About() {
           
         </div>
         <div className=" md:block">
-          <img className="h-[200px] w-[200px] object-cover rounded-full" src="https://i.ibb.co/LXv4Rqyy/profilephoto2.jpg" alt="profilephoto2" />
+          <img className="h-[200px] w-[200px] object-cover rounded-full" src="https://imgur.com/undefined.jpg" alt="profilephoto2" />
         </div>
       </section>
     
