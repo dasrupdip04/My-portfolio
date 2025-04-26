@@ -56,7 +56,7 @@ export default function Project() {
   opacity-100 sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-150">
             <Link
               target="_blank"
-              to={project.liveLink}
+              to={project.livelink}
               className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-purple-600 flex items-center justify-center text-2xl font-semibold uppercase outline-none focus:outline-none mr-4 mb-1 ease-linear transition-all duration-150"
             >
               Live
