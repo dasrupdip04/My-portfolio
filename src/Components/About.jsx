@@ -2,6 +2,16 @@ import { Link } from "react-router-dom";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 export default function About() {
+
+  const handleDownload = () => {
+    const link = document.createElement('a');
+    link.href = 'public/RUPDIP-resume-april25 copy.pdf'; 
+    link.download = 'Rupdip_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     
       <section className="my-8 flex flex-row items-center justify-between px-3">
@@ -9,6 +19,13 @@ export default function About() {
           <h1 className="text-4xl font-bold">Rupdip Das.</h1>
           <p className="mt-2 text-lg">Full Stack AI Developer</p>
           <p className="mt-4 text-gray-400">Full Stack GenAI Developer skilled in integrating AI into web apps, building RAG systems, and creating memory-aware agentic AI tools. Experienced in delivering scalable, real-world solutions using React, Node.js, Express and modern AI frameworks.</p>
+          <button
+          onClick={handleDownload}
+          className="mt-6 flex items-center gap-2 rounded bg-purple-800 px-4 py-2 text-white hover:bg-purple-950"
+        >
+          Resume
+          <AiOutlineArrowRight />
+        </button>
           
         </div>
         <div className=" md:block">
