@@ -53,7 +53,7 @@ export default function Project() {
     <section className="my-16 px-3" id="Projects">
   
 
-  <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-4">
+  <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-6">
     {otherproj?.map(project => (
       <article className="group" key={project.id}>
         <div className="flex flex-col justify-center relative">

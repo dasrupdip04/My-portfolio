@@ -5,7 +5,7 @@ export default function About() {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = 'public/RUPDIP-resume-april25 copy.pdf'; 
+    link.href = '/myresume.pdf'; 
     link.download = 'Rupdip_Resume.pdf';
     document.body.appendChild(link);
     link.click();

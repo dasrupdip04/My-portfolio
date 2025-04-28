@@ -23,6 +23,30 @@ export const otherproj=[
         
         
       },
+
+      {
+        livelink: 'https://book-library-rupdip.vercel.app/',
+        sourceLink: 'https://github.com/dasrupdip04/BookLibrary',
+        id: 'Terminal Based Mini Cursor',
+        title: 'Book Library',
+        img:'https://imgur.com/TABxATq.png',
+        
+        techStack: 'Python, OpenAI SDK (Gemini API), OS & FileSystem Modules, JSON Handling',
+        
+        
+      },
+      {
+        livelink: 'https://image-curator-rd.vercel.app/',
+        sourceLink: 'https://github.com/dasrupdip04/Image-Curator-App',
+        id: 'Image Curator App',
+        title: 'Image Curator App',
+        img:'https://imgur.com/AmCLixS.png',
+        
+        techStack: 'Python, OpenAI SDK (Gemini API), OS & FileSystem Modules, JSON Handling',
+        
+        
+      },
+      ,
     
       {
         livelink: 'https://injurytracker-rd.vercel.app/',
@@ -43,29 +67,6 @@ export const otherproj=[
         id: 'Injury Tracker',
         title: 'To Do App',
         img:'https://imgur.com/2MRvvtD.png" alt="Screenshot-2025-04-26-at-7-14-33-PM',
-        
-        techStack: 'Python, OpenAI SDK (Gemini API), OS & FileSystem Modules, JSON Handling',
-        
-        
-      },
-
-      {
-        livelink: 'https://book-library-rupdip.vercel.app/',
-        sourceLink: 'https://github.com/dasrupdip04/BookLibrary',
-        id: 'Terminal Based Mini Cursor',
-        title: 'Book Library',
-        img:'https://imgur.com/TABxATq.png',
-        
-        techStack: 'Python, OpenAI SDK (Gemini API), OS & FileSystem Modules, JSON Handling',
-        
-        
-      },
-      {
-        livelink: 'https://image-curator-rd.vercel.app/',
-        sourceLink: 'https://github.com/dasrupdip04/Image-Curator-App',
-        id: 'Image Curator App',
-        title: 'Image Curator App',
-        img:'https://imgur.com/AmCLixS.png',
         
         techStack: 'Python, OpenAI SDK (Gemini API), OS & FileSystem Modules, JSON Handling',
         
