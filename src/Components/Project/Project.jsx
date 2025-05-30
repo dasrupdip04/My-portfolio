@@ -8,7 +8,7 @@ export default function Project() {
   return (
     <div>
         <section className="my-16 px-3" id="Projects">
-      <p className="text-3xl font-semibold text-white">Featured Projects</p>
+      <p className="text-3xl font-semibold text-white border-b-5 border-slate-500 inline-block pb-1 tracking-wide">Featured Projects</p>
 
       {ProjectDeatils?.map(project => (
         <article className="group my-10" key={project.id}>

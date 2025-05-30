@@ -4,7 +4,7 @@ import { BsArrowRightShort } from 'react-icons/bs';
 function Skills() {
   return (
     <section className='my-16 px-3' id='Skills'>
-      <p className='text-3xl font-semibold'>Skills & Uses</p>
+      <p className='text-3xl font-semibold text-white border-b-5 border-slate-500 inline-block pb-1 tracking-wide '>Skills & Uses</p>
       <div className='text-md md:text-xl my-8 flex flex-col'>
       <p className='flex flex-row flex-wrap border-b-[0.1px] py-1 border-gray-500 text-slate-300 items-center' >
           <BsArrowRightShort className='w-8 h-8'/>
