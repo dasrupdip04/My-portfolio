@@ -19,13 +19,15 @@ export default function About() {
           <h1 className="text-4xl font-bold">Rupdip Das.</h1>
           <p className="mt-2 text-lg">Full Stack AI Developer</p>
           <p className="mt-4 text-gray-400">Full Stack GenAI Developer skilled in integrating AI into web apps, building RAG systems, and creating memory-aware agentic AI tools. Experienced in delivering scalable, real-world solutions using React, Node.js, Express and modern AI frameworks.</p>
-          <button
-          onClick={handleDownload}
-          className="mt-6 flex items-center gap-2 rounded bg-purple-800 px-4 py-2 text-white hover:bg-purple-950"
-        >
-          Resume
-          <AiOutlineArrowRight />
-        </button>
+          <a
+            href="https://drive.google.com/file/d/1HvYqkhIDYo1B3LznYw2EaZDugfTSR5Mm/view"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 flex items-center gap-2 rounded bg-purple-800 px-4 py-2 text-white hover:bg-purple-950"
+          >
+            Resume
+          </a>
+
           
         </div>
         <div className=" md:block">
