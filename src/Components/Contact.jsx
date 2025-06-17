@@ -18,7 +18,7 @@ export default function Contact() {
       <AiOutlineTwitter />
       </Link> */}
 
-      <Link to="https://www.linkedin.com/in/rupdip-das-aa5243291/" target="_black" className="rounded-lg bg-zinc-800 p-2 mx-2 text-2xl ring-zinc-500 hover:ring-2 transition-all duration-200">
+      <Link to="https://www.linkedin.com/in/rupdip-das-704940211/" target="_black" className="rounded-lg bg-zinc-800 p-2 mx-2 text-2xl ring-zinc-500 hover:ring-2 transition-all duration-200">
       <GrLinkedinOption/>
       </Link>
 
