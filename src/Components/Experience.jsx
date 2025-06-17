@@ -41,7 +41,11 @@ function Experience() {
           <span className='text-sm text-slate-400 md:text-base'>June 2025 – Present</span>
         </div>
         <ul className=' text-slate-300 pl-14 mt-2 space-y-1 list-disc list-outside'>
-          <li>Reviewing foundational ML research papers and familiarizing with ongoing thesis work and methodologies.</li>
+          <li>Fine-tuning multiple small language models (SLMs) including TinyLlama, Mistral, and Phi-2 on domain-specific datasets.</li>
+          <li>Designed models for advanced query decomposition, logical reasoning, and fact-checking capabilities to support robust downstream tasks.</li>
+          <li>Built an ensemble to leverage the strengths of multiple fine-tuned SLMs.</li>
+          <li>Further goals include reducing hallucination in model outputs.</li>
+          <li>Also working toward multi-objective optimization to find ideal trade-offs across models using genetic algorithms.</li>
         </ul>
       </div>
     </section>
