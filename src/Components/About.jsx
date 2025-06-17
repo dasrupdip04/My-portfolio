@@ -23,10 +23,13 @@ export default function About() {
             href="https://drive.google.com/file/d/1HvYqkhIDYo1B3LznYw2EaZDugfTSR5Mm/view"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-6 flex items-center gap-2 rounded bg-purple-800 px-4 py-2 text-white hover:bg-purple-950"
+            className="mt-6 inline-flex w-fit items-center gap-2 rounded bg-purple-800 px-4 py-2 text-white hover:bg-purple-950"
           >
             Resume
+            <AiOutlineArrowRight />
           </a>
+
+
 
           
         </div>
